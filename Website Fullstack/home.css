@@ -1,0 +1,310 @@
+body{
+    /* #191970 */
+    background-color:#000a40 ;
+    /* background-image: url(/photos/18355759_starry_sky_0508.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    position:absolute;
+    margin: 0%;
+    height: 1000vh; */
+    margin: 0%;
+    padding: 0%;
+    width:100%;
+  height:100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  
+
+}
+.background {
+   padding-top: 3%;
+   background-image: url(/photos/pic2.jpeg);
+    width: 100%;
+    height: 76vh;
+    
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-bottom-left-radius:15%;
+    border-bottom-right-radius: 15%;
+    box-shadow: 0px 1px 30px black;
+    
+   /* opacity: 1; */
+    
+    
+}
+.background a{
+    text-decoration: none;
+    color: white;
+    margin-left: 8%;
+    justify-content: space-around;
+   
+}
+
+.background span .btn{
+    margin-left: 48%;
+    width: 69px;
+    background:transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 13px;
+    cursor: pointer;
+    
+}
+.background span .btn:hover{
+    color: black;
+    background-color: white;
+    transition: 0.5s;
+}
+.background h1{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 7.6%;
+    margin-top: 9%;
+}
+.background .btn2{
+       margin-left: 7.6%;
+       margin-top: 5%;
+       width:12%;
+       height: 30px;
+       border-radius: 15px;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       background-color: #3686A0 ;
+       /* background-image:linear-gradient(#ff0000,#ffa500,#ffff00,#008000,#0000ff,#4b0082,#ee82ee) ; */
+       color: white;
+       box-shadow: 0px 1px 12px black;
+       cursor: pointer;
+      
+}
+.middle h2{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 5%;
+    margin-left: 7.4%;
+    /* background:linear-gradient(#ff0000,#ffa500,#ffa500,#ffff00,#008000,#0000ff,#4b0082,#ee82ee);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; */
+}
+
+.fas{
+    margin-top: 4%;
+    margin-left: 23%;
+    background:linear-gradient(#ff0000,#ffa500,#ffa500,#ffff00,#008000,#0000ff,#4b0082,#ee82ee);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.icon p{
+    width: 40%;
+    margin-left: 23%;
+    color: #3686A0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.icon h3 {
+    margin-left: 23%;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.rowicons{
+    display: flex;
+}
+.bottom{
+    margin-top:5%;
+    padding-top: 3%;
+    background-image: url(/photos/pic9.jpg);
+    width: 100%;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* border-top-left-radius:20%;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius:20%;
+    border-bottom-right-radius: 20%; */
+    box-shadow: 0px 1px 12px black;
+    opacity: 0.9;
+   
+}
+.bottom h4{
+    color: #3686A0;
+    margin-left: 7.6%;font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.bottom h1{
+    color: white;
+    margin-left: 7.6%;
+    width: 45%;font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.bottom p{
+    color: white;
+    width:50%;
+    margin-left: 7.6%;
+    margin-top: 3%;font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footos{
+    
+    display: flex;
+    
+   
+}
+.footcont h2{
+    color: white;
+}
+.footcont p{
+    width: 50%;
+    color: white;
+}
+.footer{
+    background-color: #055c9d;
+    width: 100%;
+    height: 38vh;
+    margin-top: 9%;
+   
+
+}
+.footcont a{
+    text-decoration: none;
+    color: white;
+}
+.license{
+    display: flex;
+    justify-content:space-evenly;
+    margin-left: 48.2%;
+    color: white;
+}
+.background h1{
+    position: relative;
+    animation: move 1.3s;
+    letter-spacing: 3px;
+    
+}
+@keyframes move{
+    from{
+        margin-left: -30px;
+    }
+    to{
+        margin-left: 106px;
+    }
+}
+.background .btn2{
+    position: relative;
+    animation: move 1.8s;
+    
+}
+/* .bottom h4{
+    position: relative;
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: 4px;
+    overflow: hidden;
+    
+    background: linear-gradient(90deg,#000,#3686A0,#3686A0,#000);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    animation: animate 2s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255,255,255,0);
+} */
+
+@keyframes animate{
+    0%{
+        background-position: -500%;
+    }
+    100%{
+        background-position: 500%;
+    }
+}
+/* .icon{
+    box-shadow: 0px 3px 30px black;
+    width: 30%;
+    margin-left: 3%;
+    border-radius: 12px;
+} */
+/* .icon{
+    position: relative;
+    animation: icon 1.7s ;
+}
+@keyframes icon{
+    from{
+        margin-left: -30px;
+    }
+    to{
+        margin-left: 42px;
+    }
+} */
+/* .background span a{
+    position: relative;
+    animation: head 0.9s;
+}
+@keyframes head{
+    from{
+        margin-left: -30px;
+    }
+    to{
+        margin-left: 112px;
+    }
+
+} */
+
+  /* .background a:hover{
+        background-color: white;
+        color: black;
+        padding: 3px;
+        border-radius: 16px;
+        transition: 0.5s;
+  }  */
+  .background a{
+    position: static;
+  }
+
+ .middle{
+    flex-wrap: wrap;
+ }
+ .middle h2 {
+    font-size: 40px;
+    background-image: 
+      linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet,red,hotpink, Royalblue,#d72631,#a2d5c6,#077b8a,#5c3c92,#e2d810,#d9138a,#12a4d9,#322e2f); 
+    -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;  
+    animation: rainbow-animation 90s linear infinite;
+  }
+  
+  @keyframes rainbow-animation {
+      to {
+          background-position: 4500vh;
+      }
+  }
+ 
+/* @keyframes t1{
+    0%{
+        color: red;
+    }
+    15%{
+        color:green;
+    }
+    30%{
+        color:yellow;
+    }
+    55%{
+        color: orange;
+    }
+    70%{
+        color: indigo;
+    }
+    85%{
+        color: hotpink;
+    }
+} */
+/* @keyframes t2{
+    0%{
+       transform: translate(100%,50%) rotate(360deg);
+    }
+    25%{
+       transform: translate(5%,15%) rotate(360deg);
+    }
+    50%{
+       transform: translate(10%,5%) rotate(360deg);
+    }
+    75%{
+       transform: translate(4%,15%) rotate(360deg);
+    }
+    100%{
+       transform: translate(0%,0%) rotate(360deg);
+    }
+} */
